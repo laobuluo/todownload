@@ -1,0 +1,106 @@
+.todownload-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+.todownload-title {
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.4;
+}
+
+.todownload-buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 15px;
+    flex-shrink: 0;
+}
+
+.todownload-button {
+    text-decoration: none;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    border-radius: 4px;
+    gap: 6px;
+    line-height: 1.2;
+    font-weight: 500;
+    white-space: nowrap;
+    font-size: var(--todownload-btn-text-size, 12px);
+    padding: 8px 16px;
+}
+
+.todownload-button.download-btn {
+    padding: calc(var(--todownload-btn-text-size, 12px) * 0.75) calc(var(--todownload-btn-text-size, 12px) * 1.5);
+}
+
+.todownload-button.plus-btn {
+    padding: calc(var(--todownload-btn-text-size, 12px) * 0.75);
+}
+
+.todownload-button:hover {
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.todownload-button:active {
+    transform: translateY(1px);
+}
+
+.todownload-button svg {
+    width: calc(var(--todownload-btn-text-size, 12px) * 1.25);
+    height: calc(var(--todownload-btn-text-size, 12px) * 1.25);
+}
+
+.todownload-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.todownload-version,
+.todownload-size,
+.todownload-date {
+    display: flex;
+    align-items: center;
+}
+
+.todownload-info .label {
+    font-weight: 600;
+    margin-right: 8px;
+    color: #666;
+}
+
+.todownload-info .value {
+    color: #333;
+}
+
+.todownload-unzip {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    color: #856404;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+.todownload-button-wrap {
+    text-align: center;
+} 
+
