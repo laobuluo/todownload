@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: ToDownLoad
- * Plugin URI:  https://www.lezaiyun.com/1050.html
+ * Plugin URI:  https://www.laojiang.me/7207.html
  * Description: 一个简单的WordPress下载过度插件。公众号：<span style="color: red;">老蒋朋友圈</span>
  * Version: 2.0.0
  * Author: 老蒋和他的小伙伴
- * Author URI: https://www.lezaiyun.com/
+ * Author URI: https://www.laojiang.me/
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: todownload
@@ -227,7 +227,7 @@ class ToDownLoad {
         // Set default options
         $default_options = array(
             'enabled' => 1,
-            'unzip_text' => '解压密码: www.lezaiyun.com',
+            'unzip_text' => '解压密码: www.laojiang.me',
             'border_color' => '#e5e5e5',
             'background_color' => '#ffffff',
             'button_color' => '#007bff'
